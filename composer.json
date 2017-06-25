@@ -1,0 +1,30 @@
+{
+    "name": "taymiya/oroplatform",
+    "description": "Taymiya PDF Manager",
+    "homepage": "https://github.com/taymiya/oroplatform.git",
+    "license": "OSL-3.0",
+    "authors": [
+        {
+            "name": "Taymiya",
+            "homepage": "http://www.taymiya.com/"
+        }
+    ],
+    "autoload": {
+        "psr-0": {
+            "Ibnab\\Bundle\\PmanagerBundle": "src/"
+        }
+    },
+    "target-dir": "src/Ibnab/Bundle/PmanagerBundle",
+    "require": {
+        "php": ">=5.4.9",
+        "oro/crm": "1.x"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.x-dev"
+        }
+    }
+}
+
